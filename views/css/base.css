@@ -1,0 +1,20 @@
+/*
+* Copyright 2013, Daniel Cafe
+* Free to use and modify
+* 26/11/2013
+*/
+
+body { 
+margin:0;
+/*background-image:url('/assets/textures/mochaGrunge.png');*/
+background-color:whitesmoke;
+background-repeat:repeat;
+}
+
+h1 h2 h3  h4 h5 {
+margin: 0;
+}
+
+#bottom-offset {
+height: 300px;
+}

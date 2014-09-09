@@ -1,0 +1,81 @@
+/*
+* Copyright 2013, Daniel Cafe
+* Free to use and modify
+* 26/11/2013
+*/
+
+.floatingMenu {
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+}
+
+.fixed {position: fixed;	top: 0;}
+
+#header-img  {
+width:100%; 
+height:200px; 
+background-position: center;
+background-image:url('/assets/cafe4.jpg'); 
+}
+
+#menu {
+width:100%;
+height:60px;
+z-index: 1;
+text-align: center;
+background-repeat:repeat;
+box-shadow: 0 1px 5px rgba(70,70,70,0.4);
+background-image:url('/assets/textures/cloth_alike.png');
+}
+@media(max-width:767px){
+#menu{position:absolute}
+}
+/* First Level Menu */
+#menu h1 {
+margin:0;
+padding: 10px;
+}
+
+#main-nav  ul,
+#info-nav  ul  {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+#main-nav  ul  li,
+#info-nav  ul  li {float: left;}
+
+#main-nav  ul  li a,
+#info-nav  ul  li a {
+display: block; 
+padding: 20px 20px;
+}
+
+#main-nav  li a,
+#info-nav  li a {
+color: black;
+text-decoration: none;
+}
+
+/* Submenu */
+#main-nav ul  ul,
+#info-nav ul  ul{
+display: none;
+min-width:100px;
+position: absolute;
+margin-left: -15px ;
+background: whitesmoke;
+}
+
+#main-nav  ul  ul li,
+#info-nav  ul  ul li  {float: none;}
+
+#main-nav  ul  li:hover,
+#info-nav  ul  li:hover{background: gray;}
+
+#main-nav  ul  li:hover > ul,
+#info-nav  ul  li:hover > ul  {
+float: none;
+display: block;
+}

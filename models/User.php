@@ -1,8 +1,11 @@
 <?php 
 class User {
+
   private static $name;
-  private __construct() {
+
+  function __construct() {
     $name = 'Hello';
   }
+
 }
 ?>
