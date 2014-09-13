@@ -1,5 +1,11 @@
+# Copy this file to your available sites folder 
+# and create a symlink to it in enabled sites folder
+# usually, inside /etc/nginx/sites-available and
+# /etc/nginx/sites-enabled
+# > sudo ln -s $WORKSPACE/phpaps/config/nginx /etc/nginx/sites-enabled/phpaps
+
 server {
-        listen 80;
+	# Edit the next two lines to reflect your working path
         server_name phpaps;
         root /srv/http/phpaps;
 
