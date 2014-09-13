@@ -17,4 +17,3 @@ List of authors:
 * Danilo Jun Shibata
 O Aprediz:
 * Jonas Kienitz
-
