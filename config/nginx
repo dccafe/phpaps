@@ -6,7 +6,7 @@
 
 server {
 	# Edit the next two lines to reflect your working path
-        server_name phpaps;
+        server_name phpaps localhost;
         root /srv/http/phpaps;
 
         index index.php;
