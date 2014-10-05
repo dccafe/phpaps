@@ -1,10 +1,14 @@
 <?php 
 class User {
 
-  private static $name;
+  public $name;
 
-  function __construct() {
-    $name = 'Hello';
+  function __construct($name) {
+    $this->name = $name;
+  }
+
+  function __toString() {
+    return $this->name;
   }
 
 }
