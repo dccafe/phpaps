@@ -12,9 +12,9 @@ include_once 'views/header.php';
 
 // Show available Bids
 // TODO
-foreach ($products as $item) {
-  echo $item;
-}
+//foreach ($products as $item) {
+//  echo $item;
+//}
 
 // Test suites
 // testing the creation of a new user
